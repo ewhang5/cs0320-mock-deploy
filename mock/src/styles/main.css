@@ -1,0 +1,36 @@
+/**
+ * This is the styling for main.
+ */
+.repl {
+    position:relative;
+    min-height:95vh;    
+}
+
+.repl-history {      
+    height:55vh;
+    margin: auto;
+    display: block;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.repl-input {        
+    margin: auto;
+    height:10vh;
+    white-space: pre;
+}
+.repl-command-box {
+    width: 90%;            
+    margin: auto;
+    display: block;
+}
+
+.border {
+    border: 1px solid;
+}
+
+button{
+    margin: auto;
+    display: block;
+}
